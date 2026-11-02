@@ -1,2 +1,4 @@
-import pytest
-print(0.1 + 0.2 )
+
+a = [1,2,3]
+a.reverse()
+print(a)
