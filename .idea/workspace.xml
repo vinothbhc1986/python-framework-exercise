@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="233e0c37-539d-4df6-ab35-069cd42625ae" name="Changes" comment="pytest">
-      <change afterPath="$PROJECT_DIR$/main1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/03/07_test_shop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/03/08_mark_parameterize.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/03/09_test_fixtures.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/03/10_fixtures.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="233e0c37-539d-4df6-ab35-069cd42625ae" name="Changes" comment="add conftest">
+      <change afterPath="$PROJECT_DIR$/data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/panda1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pay.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/03/11_pandas_fxture.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/03/12_built-in_fixtures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/03/13_test_shop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +43,12 @@
     &quot;accountId&quot;: &quot;15098821-a986-48dd-8dc7-4ed32daeadca&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/tests/03/11_pandas_fxture.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8,
   &quot;fromUser&quot;: false
@@ -55,74 +61,79 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python tests.Python tests for .executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for 03_multiple_asserts.test_adult_status.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for 04_raises_match_regex.test_invalid_type_message.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for 05_exc_info_details.test_privileged_port.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for 06_custom_messages.test_tax_calculation.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for 11_custom_tolerance.test_tolerance_levels.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for 12_approx_collections.test_vector_approx.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for tests._04_dict_diff.test_user_record.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for tests._05_list_diff.test_fruit_inventory.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for tests._08_identity_checks.test_default_config_none.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for tests.test_calculator.test_add.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in -s.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in 01_plain_assert.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in 01_test_raises_basic.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in 02_custom_exceptions.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in 03_boundary_validation.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in 03_multiple_asserts.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in 05_exc_info_details.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in 06_custom_messages.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in 09_set_comparitions.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in 10_pytest_approx.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in 11_custom_tolerance.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in 12_approx_collections.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in PyCharm 2026.2.1.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in _04_dict_diff.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in _05_list_diff.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in _08_identity_checks.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_calculator.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests.executor&quot;: &quot;Run&quot;,
-    &quot;Python.13_foundations_summary.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Run Python File.executor&quot;: &quot;Run&quot;,
-    &quot;Python.a.executor&quot;: &quot;Run&quot;,
-    &quot;Python.fastapi.executor&quot;: &quot;Run&quot;,
-    &quot;Python.fastapi1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.merge-data-panda.executor&quot;: &quot;Run&quot;,
-    &quot;Python.py1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.pydantic1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.requests1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.requests2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.requests3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.requests4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.scikit-learn1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.scikit0.executor&quot;: &quot;Run&quot;,
-    &quot;Python.streamlit1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_calculator.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/practice/python-practice&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests for .executor": "Run",
+    "Python tests.Python tests for 03_multiple_asserts.test_adult_status.executor": "Run",
+    "Python tests.Python tests for 04_raises_match_regex.test_invalid_type_message.executor": "Run",
+    "Python tests.Python tests for 05_exc_info_details.test_privileged_port.executor": "Run",
+    "Python tests.Python tests for 06_custom_messages.test_tax_calculation.executor": "Run",
+    "Python tests.Python tests for 11_custom_tolerance.test_tolerance_levels.executor": "Run",
+    "Python tests.Python tests for 12_approx_collections.test_vector_approx.executor": "Run",
+    "Python tests.Python tests for tests._04_dict_diff.test_user_record.executor": "Run",
+    "Python tests.Python tests for tests._05_list_diff.test_fruit_inventory.executor": "Run",
+    "Python tests.Python tests for tests._08_identity_checks.test_default_config_none.executor": "Run",
+    "Python tests.Python tests for tests.test_calculator.test_add.executor": "Run",
+    "Python tests.Python tests in -s.executor": "Run",
+    "Python tests.Python tests in 01_plain_assert.py.executor": "Run",
+    "Python tests.Python tests in 01_test_raises_basic.py.executor": "Run",
+    "Python tests.Python tests in 02_custom_exceptions.py.executor": "Run",
+    "Python tests.Python tests in 03_boundary_validation.py.executor": "Run",
+    "Python tests.Python tests in 03_multiple_asserts.py.executor": "Run",
+    "Python tests.Python tests in 05_exc_info_details.py.executor": "Run",
+    "Python tests.Python tests in 06_custom_messages.py.executor": "Run",
+    "Python tests.Python tests in 09_set_comparitions.py.executor": "Run",
+    "Python tests.Python tests in 10_pytest_approx.py.executor": "Run",
+    "Python tests.Python tests in 11_custom_tolerance.py.executor": "Run",
+    "Python tests.Python tests in 11_pandas_fxture.py.executor": "Run",
+    "Python tests.Python tests in 12_approx_collections.py.executor": "Run",
+    "Python tests.Python tests in 12_built-in_fixtures.py.executor": "Run",
+    "Python tests.Python tests in 13_test_shop.py.executor": "Run",
+    "Python tests.Python tests in PyCharm 2026.2.1.executor": "Run",
+    "Python tests.Python tests in _04_dict_diff.py.executor": "Run",
+    "Python tests.Python tests in _05_list_diff.py.executor": "Run",
+    "Python tests.Python tests in _08_identity_checks.py.executor": "Run",
+    "Python tests.Python tests in test_calculator.py.executor": "Run",
+    "Python tests.Python tests.executor": "Run",
+    "Python.12_built-in_fixtures.executor": "Run",
+    "Python.13_foundations_summary.executor": "Run",
+    "Python.Run Python File.executor": "Run",
+    "Python.a.executor": "Run",
+    "Python.fastapi.executor": "Run",
+    "Python.fastapi1.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.merge-data-panda.executor": "Run",
+    "Python.panda1.executor": "Run",
+    "Python.py1.executor": "Run",
+    "Python.pydantic1.executor": "Run",
+    "Python.requests1.executor": "Run",
+    "Python.requests2.executor": "Run",
+    "Python.requests3.executor": "Run",
+    "Python.requests4.executor": "Run",
+    "Python.scikit-learn1.executor": "Run",
+    "Python.scikit0.executor": "Run",
+    "Python.streamlit1.executor": "Run",
+    "Python.test_calculator.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "D:/practice/python-practice",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "terminal",
+    "to.speed.mode.migration.done": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\practice\python-practice" />
@@ -132,8 +143,29 @@
       <recent name="D:\practice\python-practice\tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests in 12_built-in_fixtures.py">
+    <configuration name="12_built-in_fixtures" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-practice" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/03" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/03/12_built-in_fixtures.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="panda1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-practice" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -148,7 +180,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="DEBUG_JUST_MY_CODE" value="false" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/panda1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,58 +189,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for 08_warns_match_filter.test_format_data_warning" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="python-practice" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="DEBUG_JUST_MY_CODE" value="false" />
-      <option name="RUN_TOOL" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;08_warns_match_filter.test_format_data_warning&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for tests._04_dict_diff.test_user_record" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="python-practice" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="DEBUG_JUST_MY_CODE" value="false" />
-      <option name="RUN_TOOL" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests._04_dict_diff.test_user_record&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for tests._05_list_diff.test_fruit_inventory" type="tests" factoryName="Autodetect" nameIsGenerated="true">
-      <module name="python-practice" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="DEBUG_JUST_MY_CODE" value="false" />
-      <option name="RUN_TOOL" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests._05_list_diff.test_fruit_inventory&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for tests.test_calculator.test_add" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in 11_pandas_fxture.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python-practice" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -221,8 +202,42 @@
       <option name="DEBUG_JUST_MY_CODE" value="false" />
       <option name="RUN_TOOL" value="" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.test_calculator.test_add&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/03/11_pandas_fxture.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in 12_built-in_fixtures.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="python-practice" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/03/12_built-in_fixtures.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in 13_test_shop.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="python-practice" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/03/13_test_shop.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="tests" factoryName="py.test">
@@ -246,18 +261,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.main" />
-      <item itemvalue="Python tests.Python tests for tests._05_list_diff.test_fruit_inventory" />
-      <item itemvalue="Python tests.Python tests for 08_warns_match_filter.test_format_data_warning" />
-      <item itemvalue="Python tests.Python tests for tests._04_dict_diff.test_user_record" />
-      <item itemvalue="Python tests.Python tests for tests.test_calculator.test_add" />
+      <item itemvalue="Python.12_built-in_fixtures" />
+      <item itemvalue="Python.panda1" />
+      <item itemvalue="Python tests.Python tests in 11_pandas_fxture.py" />
+      <item itemvalue="Python tests.Python tests in 12_built-in_fixtures.py" />
+      <item itemvalue="Python tests.Python tests in 13_test_shop.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python tests.Python tests for tests.test_calculator.test_add" />
-        <item itemvalue="Python tests.Python tests for 08_warns_match_filter.test_format_data_warning" />
-        <item itemvalue="Python tests.Python tests for tests._04_dict_diff.test_user_record" />
+        <item itemvalue="Python tests.Python tests in 12_built-in_fixtures.py" />
+        <item itemvalue="Python tests.Python tests in 13_test_shop.py" />
+        <item itemvalue="Python tests.Python tests in 11_pandas_fxture.py" />
+        <item itemvalue="Python.panda1" />
+        <item itemvalue="Python.12_built-in_fixtures" />
       </list>
     </recent_temporary>
   </component>
@@ -308,7 +324,23 @@
       <option name="project" value="LOCAL" />
       <updated>1793358388671</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add conftest">
+      <option name="closed" value="true" />
+      <created>1793620993517</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1793620993517</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add conftest">
+      <option name="closed" value="true" />
+      <created>1793621010372</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1793621010372</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,7 +349,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="merge table" />
     <MESSAGE value="pytest" />
-    <option name="LAST_COMMIT_MESSAGE" value="pytest" />
+    <MESSAGE value="add conftest" />
+    <option name="LAST_COMMIT_MESSAGE" value="add conftest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -331,11 +364,6 @@
           <url>file://$PROJECT_DIR$/merge-data-panda.py</url>
           <line>27</line>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/tests/conftest.py</url>
-          <line>15</line>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
