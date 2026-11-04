@@ -13,6 +13,7 @@ def my_dataframe_fixture():
 
 def test_show_top_row(dataframe):
     assert show_top_row(dataframe).equals(dataframe.iloc[0])
+    print("ppp")
 
 def test_show_bottom_row(dataframe):
     assert show_bottom_row(dataframe).equals(dataframe.iloc[-1])

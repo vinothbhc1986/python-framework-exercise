@@ -4,15 +4,51 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="233e0c37-539d-4df6-ab35-069cd42625ae" name="Changes" comment="add conftest">
-      <change afterPath="$PROJECT_DIR$/data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/panda1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pay.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/03/11_pandas_fxture.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/03/12_built-in_fixtures.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/03/13_test_shop.py" afterDir="false" />
+    <list default="true" id="233e0c37-539d-4df6-ab35-069cd42625ae" name="Changes" comment="add build in fixtures">
+      <change afterPath="$PROJECT_DIR$/tests/04/test_02_async_fxtures.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/01_plain_assert.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/02/01_test_raises_basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/02/01_test_raises_basic_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/02/02_custom_exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/02/02_custom_exceptions_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/02/03_boundary_validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/02/03_boundary_validation_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/02/04_raises_match_regex.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/02/04_raises_match_regex_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/02/05_exc_info_details.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/02/05_exc_info_details_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/02/06_multiple_exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/02/06_multiple_exceptions_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/02/07_warns_basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/02/07_warns_basic_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/02/08_warns_match_filter.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/02/08_warns_match_filter_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/02/09_recwarn_recorder.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/02/09_recwarn_recorder_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/02/10_filterwarnings_mark.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/02/10_filterwarnings_mark_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/02/11_deprecated_call.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/02/11_deprecated_call_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/02/12_exceptions_summary.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/02/12_exceptions_summary_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/02_test_discovery-rules.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/03/01_fixtures.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/03/02_parametrize.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/03/03_AAA_fixture.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/03/04_multiple_fixture.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/03/05_chained_fixtures.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/03/06_fixtures_with_parametrize.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/03/07_test_shop.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/03/08_mark_parameterize.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/03/09_test_fixtures.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/03/10_fixtures.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/03/11_pandas_fxture.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/03/12_built-in_fixtures.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/03/13_test_shop.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/03_multiple_asserts.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/06_custom_messages.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/07_test_classes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/09_set_comparitions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/10_pytest_approx.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/11_custom_tolerance.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/12_approx_collections.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/13_foundations_summary.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/_04_dict_diff.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/_05_list_diff.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/_08_identity_checks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_calculator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uv.lock" beforeDir="false" afterPath="$PROJECT_DIR$/uv.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +115,7 @@
     "Python tests.Python tests in 01_plain_assert.py.executor": "Run",
     "Python tests.Python tests in 01_test_raises_basic.py.executor": "Run",
     "Python tests.Python tests in 02_custom_exceptions.py.executor": "Run",
+    "Python tests.Python tests in 03_AAA_fixture_test.py.executor": "Run",
     "Python tests.Python tests in 03_boundary_validation.py.executor": "Run",
     "Python tests.Python tests in 03_multiple_asserts.py.executor": "Run",
     "Python tests.Python tests in 05_exc_info_details.py.executor": "Run",
@@ -90,10 +127,16 @@
     "Python tests.Python tests in 12_approx_collections.py.executor": "Run",
     "Python tests.Python tests in 12_built-in_fixtures.py.executor": "Run",
     "Python tests.Python tests in 13_test_shop.py.executor": "Run",
+    "Python tests.Python tests in 14_paramertize.py.executor": "Run",
+    "Python tests.Python tests in 14_paramertize_exp_fail_test.py.executor": "Run",
     "Python tests.Python tests in PyCharm 2026.2.1.executor": "Run",
     "Python tests.Python tests in _04_dict_diff.py.executor": "Run",
     "Python tests.Python tests in _05_list_diff.py.executor": "Run",
     "Python tests.Python tests in _08_identity_checks.py.executor": "Run",
+    "Python tests.Python tests in test_01_asyncio.py.executor": "Run",
+    "Python tests.Python tests in test_02_async_fxtures.py.executor": "Run",
+    "Python tests.Python tests in test_async_fxtures.py.executor": "Run",
+    "Python tests.Python tests in test_asyncio.py.executor": "Run",
     "Python tests.Python tests in test_calculator.py.executor": "Run",
     "Python tests.Python tests.executor": "Run",
     "Python.12_built-in_fixtures.executor": "Run",
@@ -139,57 +182,13 @@
       <recent name="D:\practice\python-practice" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\practice\python-practice" />
       <recent name="D:\practice\python-practice\tests" />
+      <recent name="D:\practice\python-practice\tests\03\01" />
+      <recent name="D:\practice\python-practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in 12_built-in_fixtures.py">
-    <configuration name="12_built-in_fixtures" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python-practice" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/03" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="DEBUG_JUST_MY_CODE" value="false" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/03/12_built-in_fixtures.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="panda1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python-practice" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="DEBUG_JUST_MY_CODE" value="false" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/panda1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in 11_pandas_fxture.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests in test_02_async_fxtures.py">
+    <configuration name="Python tests in 03_AAA_fixture_test.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python-practice" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -202,11 +201,11 @@
       <option name="DEBUG_JUST_MY_CODE" value="false" />
       <option name="RUN_TOOL" value="" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/03/11_pandas_fxture.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/03/03_AAA_fixture_test.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in 12_built-in_fixtures.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in 14_paramertize_exp_fail_test.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python-practice" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -219,11 +218,11 @@
       <option name="DEBUG_JUST_MY_CODE" value="false" />
       <option name="RUN_TOOL" value="" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/03/12_built-in_fixtures.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/03/14_paramertize_exp_fail_test.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in 13_test_shop.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in D:/practice/python-practice/tests/05/test_asyncio.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="python-practice" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -236,7 +235,41 @@
       <option name="DEBUG_JUST_MY_CODE" value="false" />
       <option name="RUN_TOOL" value="" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/03/13_test_shop.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/05/test_asyncio.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_01_asyncio.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="python-practice" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/04/test_01_asyncio.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_02_async_fxtures.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="python-practice" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/04/test_02_async_fxtures.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -261,19 +294,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.12_built-in_fixtures" />
-      <item itemvalue="Python.panda1" />
-      <item itemvalue="Python tests.Python tests in 11_pandas_fxture.py" />
-      <item itemvalue="Python tests.Python tests in 12_built-in_fixtures.py" />
-      <item itemvalue="Python tests.Python tests in 13_test_shop.py" />
+      <item itemvalue="Python tests.Python tests in 03_AAA_fixture_test.py" />
+      <item itemvalue="Python tests.Python tests in 14_paramertize_exp_fail_test.py" />
+      <item itemvalue="Python tests.Python tests in D:/practice/python-practice/tests/05/test_asyncio.py" />
+      <item itemvalue="Python tests.Python tests in test_01_asyncio.py" />
+      <item itemvalue="Python tests.Python tests in test_02_async_fxtures.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in 12_built-in_fixtures.py" />
-        <item itemvalue="Python tests.Python tests in 13_test_shop.py" />
-        <item itemvalue="Python tests.Python tests in 11_pandas_fxture.py" />
-        <item itemvalue="Python.panda1" />
-        <item itemvalue="Python.12_built-in_fixtures" />
+        <item itemvalue="Python tests.Python tests in test_02_async_fxtures.py" />
+        <item itemvalue="Python tests.Python tests in test_01_asyncio.py" />
+        <item itemvalue="Python tests.Python tests in 03_AAA_fixture_test.py" />
+        <item itemvalue="Python tests.Python tests in 14_paramertize_exp_fail_test.py" />
+        <item itemvalue="Python tests.Python tests in D:/practice/python-practice/tests/05/test_asyncio.py" />
       </list>
     </recent_temporary>
   </component>
@@ -340,7 +373,15 @@
       <option name="project" value="LOCAL" />
       <updated>1793621010372</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add build in fixtures">
+      <option name="closed" value="true" />
+      <created>1793708977510</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1793708977510</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,7 +391,8 @@
     <MESSAGE value="merge table" />
     <MESSAGE value="pytest" />
     <MESSAGE value="add conftest" />
-    <option name="LAST_COMMIT_MESSAGE" value="add conftest" />
+    <MESSAGE value="add build in fixtures" />
+    <option name="LAST_COMMIT_MESSAGE" value="add build in fixtures" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
